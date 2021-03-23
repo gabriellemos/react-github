@@ -1,0 +1,68 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+
+  .icon {
+    color: #6a737d;
+  }
+
+  p {
+    margin: 0;
+    font-size: 14px;
+    color: rgb(36, 41, 46);
+  }
+}
+
+.user_data {
+  background: pink;
+
+  flex-grow: 0.5;
+  max-width: 300px;
+  padding: 20px;
+
+  .user_name {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+    p {
+      &:nth-of-type(1) {
+        color: #24292e;
+        font-size: 1.6em;
+        font-weight: bold;
+      }
+      &:nth-of-type(2) {
+        color: #586069;
+        font-size: 1.2em;
+      }
+    }
+  }
+
+  .user_avatar {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 20px;
+  }
+
+  .divider {
+    margin: 20px 0;
+  }
+
+  .folower_info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 0;
+    gap: 4px;
+  }
+
+  .more_info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    gap: 4px;
+  }
+}

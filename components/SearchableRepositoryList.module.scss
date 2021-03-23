@@ -1,0 +1,18 @@
+.search_result {
+  width: 100%;
+  max-width: 750px;
+  padding: 0 10px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.search_actions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  //margin: 10px 0;
+  gap: 10px;
+}

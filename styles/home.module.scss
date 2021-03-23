@@ -1,0 +1,35 @@
+.search_container {
+  width: 100%;
+  margin: 0 auto 10px;
+  padding: 0 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: sticky;
+  border-bottom: 1px solid #eaeaea;
+  box-shadow: 0 4px 6px rgba(32,33,36,.28);
+  background: #fff;
+  top: 0;
+  z-index: 1;
+}
+
+.search_result {
+  width: 100%;
+  max-width: 750px;
+  padding: 0 10px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.search_actions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+  gap: 10px;
+}

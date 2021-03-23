@@ -1,0 +1,58 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+
+  .user_avatar {
+    width: 30px;
+    height: 30px;
+  }
+
+  .user_name {
+    color: #0366d6;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  .user_login {
+    color: #586069;
+    font-size: 16px;
+  }
+
+  .user_name, .user_login {
+    text-decoration: none;
+
+    &:hover {
+      cursor: pointer;
+      text-decoration: underline;
+    }
+  }
+
+  p {
+    margin: 0;
+  }
+}
+
+.content {
+  margin: 10px 0 0;
+  padding-left: 40px;
+
+  .user_bio {
+    font-size: 14px;
+    color: rgb(36, 41, 46);
+    margin: 0 0 6px;
+  }
+
+  .more_info {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+    p {
+      font-size: 12px;
+      color: #586069;
+      margin: 0;
+    }
+  }
+}
